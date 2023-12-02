@@ -1,0 +1,324 @@
+body #home{
+    background-color: red;
+    min-width: 12vm;
+}
+.nav-item {
+    margin-right: 2px;
+    text-transform: uppercase;
+}
+.nav-item :hover::after{
+    content: ''; 
+    display: block;
+    border-bottom: 3px solid yellow;
+    width: 50%;
+    margin: auto;
+    color: yellow;
+}
+.Login{
+    text-decoration: none;
+    color: blue;
+    font-size: 20px;
+    transition: all .50s ease-in-out;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+.REGISTRASI{
+    text-decoration: none;
+    color: blue;
+    font-size: 20px;
+    transition: all .50s ease-in-out;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+.REGISTRASI:hover{
+    text-decoration: none;
+    color: blue;
+    font-size: 20px;
+    font-size: 30px;
+    transform: scale(15);
+}
+.Login:hover{
+    color: #FC4F00;
+    transform: scale(15);
+    font-size: 30px;
+}
+.REGISTRASI:hover{
+    color: #FC4F00;
+}
+.log_reg{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:15px;
+    color: green;
+    font-style: italic;
+}
+#About{
+    background-image:url(bromo.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    background-position: 0px -650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Times New Roman';
+    background-attachment: fixed;
+}
+.fun{
+  color:  #FC4F00;
+    display: flex;
+    text-align: end;
+    flex-direction: column;
+    letter-spacing: 5px;
+    font-size: 15px;
+    margin-top: -60px;
+    margin-left: 100px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+.card:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    top: 10;
+    filter: opacity(2);
+    transition: all 2s ease-in;
+}
+.btn-dark{
+    border-radius: 1 10 solid black;
+}
+.dark-mode{
+    transition:all 0.5s ease-in-out; 
+    background-color: rgb(58, 58, 58);  
+    color: white; 
+    opacity: 100px;
+}
+.break-line hr{
+    color: yellow;
+    border: 2px solid skyblue;
+}
+
+.mlg{
+    margin-left: 125px;
+    background-repeat: no-repeat;
+}  
+.maps{
+    opacity: 100px;
+}
+.video{
+    border-radius: 25px 25px;
+}
+.opinonsObject{
+    border-radius: 100%;
+    margin-right: 100px;
+}
+.paragopinions{
+    border: 4px solid black;
+    border-radius: 20px 30px;
+}
+
+
+#kontak {
+    margin-top: 100px;
+}
+.footer{
+    background:  rgb(90, 89, 89);
+    padding: 20px 0px 20px 0px;
+    width: 100%;
+    position: relative;
+    display: flex; 
+    flex-wrap: wrap;
+    margin: auto;
+    overflow-y: hidden;
+    z-index: -1;
+}
+.footer-pilihan {
+    width: 20%;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding: 20px 0px 20px 0px;
+    background-color: black;
+    color: #ffff;
+    border-top-width: 50px;
+}
+.icon i{
+    cursor: pointer;
+}
+.icon a{
+    color: #FC4F00;
+}
+
+.icon a:hover::after{
+    transform: scale(50);
+}
+
+/* Login */
+.bg-img{
+    background: url(/PWEB/bromo.jpg );
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.bg-img:after{
+    position: absolute;
+    content: '';
+    top : 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+}
+.content{
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    z-index:999;
+    width: 400px;
+    height: 500px;
+    text-align: center;
+    padding: 60px 32px;
+    background: rgba(225, 225, 225, 0);
+    background-color: #FF5000 ;
+    text-shadow: -1px 4px 28px 0px rgb(0, 0, 0, 0.75);
+    /* width: 100%; */
+    /* background: #fff; */
+    /* padding: 25px; */
+    /* border-radius: 5px; */
+}
+.content header{
+    color: #000000;
+    margin-bottom: 20px;
+    font-size: 33px;
+    font-weight: 600;
+    margin: 0 0 35px 0;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+/* .bg-img .content .yoyo i {
+     font-size: 2.3rem;
+    color: rgb(44, 44, 80);
+    text-decoration: none;
+} */
+.yoyo {
+    position:relative ;
+    height: 45px;
+    width: 100%;
+    /* margin-bottom: 30px; */
+    display: flex;
+    background: rgba(225, 225, 225, 0.94);
+}
+.submitvali{
+    width: 100%;
+}
+.yoyo span{
+    color: #222;
+    width: 40px;
+    line-height: 45px;
+}
+.yoyo button{
+    width: 100%;
+}
+.yoyo input {
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #222;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.show{
+   position: absolute; 
+   right: 13px;
+   font-size: 13px;
+   font-weight: 700;
+   color: #222;
+   cursor: pointer;
+   display: none;
+   font-family: 'Times New Roman', Times, serif;
+}
+.password:valid ~ .show{
+    display: block;
+
+}
+.space{
+    margin-top: 16px;    
+}
+.pass{
+    text-align: left;
+    margin: 10px 0;
+}
+.pass a {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+.pass :hover a {
+    text-decoration: underline;
+} 
+input[type="Submit"]{
+    background-color: red;
+    border: rgb(40, 20, 111);
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+}
+input[type="Submit"]:hover{
+    background: rgb(21, 21, 100);
+}
+.new h5{
+    margin-top: 10px;
+}
+.linklogin{
+    display: flex;
+    cursor: pointer;
+    color: white;
+    margin: 0 0 20px 0 ;
+}
+.facebook, .instragram{
+    width: 100%;
+    height: 50px;
+    line-height: 45px;
+    margin-top: 10px;
+}
+.facebook{
+    background: #4267B2;
+    border: 1px solid #3e61a8;  
+}
+.instragram{
+    background: #e1306c;
+    border: 1px solid #e1306c;  
+}
+.new h5{
+    margin-top: 10px;
+}
+.daftarakun {
+    color: white;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.daftarakun a{
+    color: #000000;
+    text-decoration: none;
+}
+.daftar a:hover{
+    text-decoration: underline;
+}
